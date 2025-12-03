@@ -1,0 +1,9 @@
+# 43 Factorial using user-defined function
+def factorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    return fact
+
+num = int(input("Enter number: "))
+print("Factorial =", factorial(num))
